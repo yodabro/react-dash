@@ -30,7 +30,7 @@ class SparkLine extends React.PureComponent {
 				}}
 				markerSettings={{ visible: ['All'], size: 2.5, fill: currentColor }}
 				dataSources={data} //deleted "S" in "Sources"
-				xName="x" // console error can't find 'X'
+				xName="x" // console error can't find 'X' check documentation to see how to fix chart and make it visible
 				yName="yval"
 				type={type}
 			>
